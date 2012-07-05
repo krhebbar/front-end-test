@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Table Demo</title>
+    <!--[if !lte IE 6]><!-->
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/assets/jquery-1.7.2.js" type="text/javascript"></script>
+    <script src="scripts/assets/jquery.mockjax.js" type="text/javascript"></script>
+    <script src="scripts/main.js" type="text/javascript"></script>
+    <!--<![endif]-->
+    <!--[if lte IE 9]><script type="text/javascript" src="scripts/assets/html5shiv.js"></script><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" href="styles/ie7.css"><![endif]-->
+    <!--[if lte IE 6]><link rel="stylesheet" href="styles/basic.css"><![endif]-->
+  </head>
+  <body>
+    <h1>Market Activities</h1>
+    <div class="filter">
+      <h2>Sector:</h2>
+      <div class="filters">
+        <a href="" class="btn"><span>Finance</span></a>
+        <a href="" class="btn"><span>Energy</span></a>
+        <a href="" class="btn"><span>FX</span></a>
+      </div>
+    </div>
+    <!-- For IE 6-->
+    <div class="clear"></div>
+    
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="aleft">Name</th>
+          <th class="aleft">Code</th>
+          <th class="aright">Value</th>
+          <th class="aright">Bid</th>
+          <th class="aright">Offer</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    
+  </body>
+</html>

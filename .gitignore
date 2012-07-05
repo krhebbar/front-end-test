@@ -16,3 +16,5 @@ tmp
 .yardoc
 _yardoc
 doc/
+scripts/assets/.DS_Store
+styles/.DS_Store
